@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
       Object.entries(activities).forEach(([name, details]) => {
         const activityCard = document.createElement("div");
         activityCard.className = "activity-card";
-
         const spotsLeft = details.max_participants - details.participants.length;
 
         activityCard.innerHTML = `

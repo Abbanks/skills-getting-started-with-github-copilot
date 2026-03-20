@@ -1,3 +1,38 @@
+/* Participants styling */
+.participants-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  background: #e3f2fd;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.participant-name {
+  margin-right: 8px;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 18px;
+  margin-left: 4px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
+}
 * {
   box-sizing: border-box;
   margin: 0;
